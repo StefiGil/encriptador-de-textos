@@ -31,7 +31,7 @@ Este proyecto es una aplicación de encriptación y desencriptación de texto qu
 
 ## Más Información
 
-- **Página Web del Proyecto**: [Encriptador de Texto](https://tu-pagina-web.com) 
+- **Página Web del Proyecto**: [Encriptador de Texto](https://stefigil.github.io/encriptador-de-textos/) 
 - **Perfil de LinkedIn**: [Stefania Gil](https://www.linkedin.com/in/stefania-gil-2b043222a/) 
 
 
