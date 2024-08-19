@@ -1,6 +1,6 @@
 # Encriptador de Texto
 
-Este proyecto es una aplicación de encriptación y desencriptación de texto que permite a los usuarios transformar texto utilizando un algoritmo de sustitución simple. Esta plataforma fue propuesta como parte del programa ONE de Alura LATAM y Oracle. 
+Este proyecto es una aplicación de encriptación y desencriptación de texto que permite a los usuarios transformar texto utilizando un algoritmo de sustitución simple. La plataforma fue propuesta como parte del programa ONE de Alura LATAM y Oracle. 
 
 ## Funcionalidades
 
