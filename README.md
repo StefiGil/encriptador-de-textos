@@ -60,5 +60,5 @@ Para ver el código completo de la implementación del algoritmo, consulta la se
 
 ---
 
-Este README proporciona una descripción clara del proyecto, sus funcionalidades, tecnologías utilizadas, y cómo el algoritmo de sustitución se aplica en el proyecto. La sección de "Anexo" es útil para agregar detalles técnicos que puedan interesar a los desarrolladores o usuarios avanzados.
+Este README proporciona una descripción clara del proyecto, sus funcionalidades, tecnologías utilizadas, y cómo el algoritmo de sustitución se aplica en el proyecto.
 
