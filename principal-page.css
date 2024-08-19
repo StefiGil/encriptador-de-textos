@@ -1,0 +1,330 @@
+:root {
+    --background: #ebeff8;
+    --first-color: #5e17eb;
+    --second-color: #242321;
+    --third-color:#b0b0b0;
+    --fourth-color: #ffffff;
+    --fifth-color: #717171;
+    --sixth-color: #b97fb7;
+    --seventh-color: #000000;
+    --grey-hover-decry: #c9c7c7;
+    --grey-hover-encry: #343434;
+    --font-size: 16px; /* 1rem = 16px */
+    --font-size-small: 70%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+}
+
+html {
+    font-size: 100%;
+}
+
+.main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.3rem;
+    flex-direction: row;
+    width: 100%;
+    height: 100%; 
+    box-sizing: border-box; 
+    margin: 5% 8% 2% 8%; 
+}
+
+.dark-mode-toggle {
+    border: none;
+    background: none;
+}
+
+.dark-mode-toggle img {
+    height: 1.75rem;
+    width: 1.75rem;
+    cursor: pointer;
+}
+
+.textarea-input {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 6% 2rem 5% 2rem; /*arriba-derecha-abajo-izquierda*/
+    width: 36rem;
+    height: 14.5rem;
+    border: 0.3rem solid var(--first-color);
+    border-radius: 1.56rem;
+    resize: none;
+    outline: none;
+    background-color: var(--fourth-color);
+    font-size: 1.1rem;
+}
+
+.instructions-and-bottons {
+    margin: 2% 2% 2% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0.62rem;
+}
+
+.instructions {
+    font-size: 0.85rem;
+    display: flex;
+}
+
+.instructions img {
+    margin-top: 0.033rem;
+    margin-right: 0.187rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+    
+.encryptBtn {
+    width: 15rem;
+    height: 2.625rem;
+    border-radius: 1.562rem;
+    border: none;
+    background-color: var(--second-color);
+    color: var(--sixth-color);
+    font-size: 1.04rem;
+}
+
+.decryptBtn {
+    width: 15rem;
+    height: 2.625rem;
+    border-radius: 1.562rem;
+    border: none;
+    background-color: var(--third-color);
+    color: var(--first-color);
+    font-size: 1.04rem;
+} 
+
+.encryptBtn:hover {
+    background-color: var(--grey-hover-encry); /* Color de fondo al pasar el mouse */
+}
+
+.decryptBtn:hover {
+    background-color: var(--grey-hover-decry); /* Color de fondo al pasar el mouse */
+}
+
+.right {
+    display:flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+}
+
+.message-box {
+    font-size: 1rem;
+    background-color: var(--first-color);
+    padding-top: 10%;
+    padding: 10% 3% 5% 3%; /*arriba-derecha-abajo-izquierda*/
+    text-align: center;
+    border-radius: 1.562rem; 
+    height: 18.05rem;
+    width: 19.375rem;
+    resize: none;
+    outline: none;
+}
+
+.message-box::placeholder {
+    color:  var(--fourth-color);
+}
+
+.copy {
+    font-size: 1rem;
+    width: 6.25rem;
+    height: 2.625rem;
+    border-radius: 1.562rem;
+    border-color: var(--first-color);
+    background-color: var(--fourth-color);
+    color: var(--first-color);
+}
+
+.copy:hover { 
+    background-color: var(--grey-hover-decry);
+}
+.footer {
+    display:flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: var(--fifth-color);
+}
+.footer a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: var(--second-color);
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--first-color); /* Cambia el color al pasar el mouse */
+}
+
+@media (max-width: 1228px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 1085px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 958px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 844px) {
+    .main {
+        flex-direction: column;
+        align-items: center; /* Centrar horizontalmente */
+    }
+
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0; /* Elimina los márgenes para centrar todo */
+    }
+    
+    .dark-mode-toggle {
+    margin-top: 1rem;
+    }
+
+    .textarea-input {
+        width: 27rem; 
+        height: 13rem;
+        margin-left: 2.6rem;
+    }
+
+    .instructions-and-bottons {
+        margin-left: 2rem;
+    }
+
+    
+    .encryptBtn {
+        width: 13rem;
+        height: 2rem;
+        border-radius: 1.562rem;
+        border: none;
+        background-color: var(--second-color);
+        color: var(--sixth-color);
+        font-size: 0.95rem;
+    }
+    
+    .decryptBtn {
+        width: 13rem;
+        height: 2rem;
+        border-radius: 1.562rem;
+        border: none;
+        background-color: var(--third-color);
+        color: var(--first-color);
+        font-size: 0.95rem;
+    } 
+
+    .right {
+        margin-top: 1rem; /* Añade un margen superior para separar los elementos */
+        gap: 1rem;
+    }
+
+    .message-box {
+        padding-top: 8%; /* Igualar la anchura de message-box a textarea */
+        width: 29.9rem;
+        height: 10rem;
+    }
+
+    .copy {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .buttons {
+        justify-content: center; /* Centra los botones horizontalmente */
+    }
+
+    .footer {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 475px){
+    html {
+        font-size: 50%;
+    }
+
+    .main {
+        width: 100%;
+        flex-direction: column;
+        align-items: center; /* Centrar horizontalmente */
+    }
+
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0; /* Elimina los márgenes para centrar todo */
+    }
+
+    .dark-mode-toggle {
+    margin-top: 1rem;
+    }
+
+    .textarea-input {
+        width: 16rem; 
+        height: 18rem;
+        margin-left: 0.9rem;
+    }
+
+    .instructions-and-bottons {
+        margin-left: 2rem;
+        width: 20rem;
+        height: 13rem;
+    }
+
+    .buttons {
+        gap: 1rem;
+    }
+
+    .right {
+        margin-top: 1rem; /* Añade un margen superior para separar los elementos */
+        gap: 1rem;
+    }
+
+    .message-box {
+        padding-top: 8%; /* Igualar la anchura de message-box a textarea */
+        width: 20rem;
+        height: 10rem;
+    }
+
+    .copy {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        width: 5rem;
+        height: 2rem;
+    }
+
+    .buttons {
+        justify-content: center; /* Centra los botones horizontalmente */
+    }
+
+    .footer {
+        margin-top: 1rem;
+    }   
+}

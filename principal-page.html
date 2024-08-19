@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/encrypted.png" type="image/png">
+    <title>Encriptador de Texto</title>
+    <link id="theme-style" rel="stylesheet" href="principal-page.css">
+    <style>
+        .error-message {
+            font-size: 0.8rem;
+            color: red;
+            display: none;
+        }
+        .copy {
+            display: none; 
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <main class="main">
+
+        <div class="content">
+
+            <!-- contenido a la izquierda -->
+            <section class="left">
+                <!--modo oscuro o claro--> 
+                <button class="dark-mode-toggle" id="theme-toggle">
+                    <img src="img/dark-mode-toggle.png" alt="Modo oscuro" id="theme-icon">
+                </button>
+                <!-- Input de texto -->
+                <div class="input-text">
+                    <textarea class="textarea-input" id="inputMessage" cols="50" rows="20" placeholder="Ingresa el texto que quieras encriptar con desencriptar"></textarea>
+                </div>
+                <p id="error-message" class="error-message">Solo se admiten letras minúsculas y sin caracteres especiales.</p>
+                <!--instrucciones y botones de encriptar y desencriptar-->
+                <div class="instructions-and-bottons">
+                    <p class="instructions"> <img src="img/exclamation-mark.png" alt="Signo de exclamacion" width="11" height="12">Solo letras minúsculas y sin acentos, no se admiten carácteres especiales</p>
+                    <div class="buttons">
+                        <button class="encryptBtn" id="encryptBtn">Encriptar</button>
+                        <button class="decryptBtn" id="decryptBtn">Decencriptar</button>        
+                    </div>
+                </div>
+            </section>
+
+            <!--contenido a la derecha-->
+            <section class="right">
+            <!-- Área de salida de texto-->
+                <textarea class="message-box" id="outputMessage" placeholder="Ningún mensaje fue encontrado."></textarea>
+                <!-- boton copiar -->
+                <button class="copy" id="copyBtn">Copiar</button>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    
+    <footer>
+        <div class="footer">
+            <p>2024 © Hecho por Stefania Gil - Proyecto propuesto por 
+                <a href="https://www.oracle.com/" target="_blank" rel="noopener noreferrer">Oracle</a> y 
+                <a href="https://www.alura.com.br/" target="_blank" rel="noopener noreferrer">Alura</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
