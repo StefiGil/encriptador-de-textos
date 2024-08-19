@@ -1,6 +1,6 @@
 # Encriptador de Texto
 
-Este proyecto es una aplicación de encriptación y desencriptación de texto que permite a los usuarios transformar texto utilizando un algoritmo de sustitución simple.
+Este proyecto es una aplicación de encriptación y desencriptación de texto que permite a los usuarios transformar texto utilizando un algoritmo de sustitución simple. Esta plataforma fue propuesta como parte del programa ONE de Alura LATAM y Oracle. 
 
 ## Funcionalidades
 
@@ -29,9 +29,11 @@ Este proyecto es una aplicación de encriptación y desencriptación de texto qu
 3. Haz clic en "Desencriptar" para revertir el texto a su forma original.
 4. Usa el botón "Copiar" para copiar el texto encriptado o desencriptado al portapapeles.
 
-## Licencia
+## Más Información
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+- **Página Web del Proyecto**: [Encriptador de Texto](https://tu-pagina-web.com) 
+- **Perfil de LinkedIn**: [Stefania Gil](https://www.linkedin.com/in/stefania-gil-2b043222a/) 
+
 
 ## Anexo: Algoritmo de Sustitución
 
