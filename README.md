@@ -22,6 +22,8 @@ Este proyecto es una aplicación de encriptación y desencriptación de texto qu
 - **Figma**: Herramienta de diseño para crear prototipos de la interfaz de usuario.
 - **Canva**: Herramienta para diseñar elementos gráficos.
 - **Trello**: Herramienta de gestión de proyectos para organizar tareas.
+- **ColorZilla**: Extensión de navegador para la selección y análisis de colores en la interfaz de usuario.
+- **Regla Virtual de Pixeles**: Extensión de navegador para medir elementos y ajustar el diseño con precisión.
 
 ## Uso
 
