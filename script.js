@@ -53,8 +53,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // Función para cambiar el color de fondo de outputMessage a blanco
     function changeOutputBackgroundColor() {
         let outputMessage = document.getElementById("outputMessage");
-        outputMessage.style.backgroundColor = "white";
+        outputMessage.style.backgroundColor = "var(--eighth-color)";
         outputMessage.style.border = " 0.3rem solid var(--first-color)";
+        outputMessage.style.color = "var(--seventh-color)";
     }
 
     //Eventos que deben suceder al presionar el boton de "encriptar o desencriptar"
