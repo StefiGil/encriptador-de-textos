@@ -7,6 +7,7 @@ Este proyecto es una aplicación de encriptación y desencriptación de texto qu
 - **Encriptar**: Transforma el texto de entrada en texto encriptado utilizando un algoritmo de sustitución.
 - **Desencriptar**: Convierte el texto encriptado de vuelta a su forma original.
 - **Validación de Entrada**: Asegura que solo se admitan letras minúsculas y espacios.
+- **Notificación de Copia**: Informa al usuario cuando el texto ha sido copiado al portapapeles, cambiando temporalmente el texto del botón a "Copiado!".
 - **Interfaz de Usuario**: Proporciona un área para ingresar el texto y botones para encriptar, desencriptar y copiar el texto.
 - **Modo Nocturno**: Permite cambiar entre un tema claro y oscuro para una mejor experiencia de usuario.
 
@@ -31,8 +32,8 @@ Este proyecto es una aplicación de encriptación y desencriptación de texto qu
 
 ## Más Información
 
-### Página Web del Proyecto**: [Encriptador de Texto](https://stefigil.github.io/encriptador-de-textos/) 
-### Perfil de LinkedIn**: [Stefania Gil](https://www.linkedin.com/in/stefania-gil-2b043222a/) 
+### Página Web del Proyecto: [Encriptador de Texto](https://stefigil.github.io/encriptador-de-textos/) 
+### Perfil de LinkedIn: [Stefania Gil](https://www.linkedin.com/in/stefania-gil-2b043222a/) 
 
 
 ## Anexo: Algoritmo de Sustitución
